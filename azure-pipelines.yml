@@ -25,6 +25,6 @@ stages:
         containerRegistry: 'johnduff Docker Hub'
         repository: 'johnduff\weatherapi'
         command: 'buildAndPush'
-        Dockerfile: '**/Dockerfile'
+        Dockerfile: '**/DockerFile'
         tags: |
           $(tag)
